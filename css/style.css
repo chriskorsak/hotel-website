@@ -9,6 +9,7 @@
 .container {
   margin: auto;
   max-width: 1100px;
+  padding: 0 20px;
 }
 
 .clear {
@@ -100,7 +101,6 @@ a {
 #navbar h1 {
   float: left;
   padding-top: 20px;
-  padding-left: 15px;
 }
 
 #navbar ul {
@@ -201,7 +201,7 @@ a {
 #testimonials {
   background: url('../images/test-bg.jpg') center no-repeat;
   background-size: cover;
-  height: 600px;
+  min-height: 600px;
 }
 
 #testimonials h2 {
@@ -220,6 +220,32 @@ a {
   width: 100px;
   float: left;
   margin-right: 20px;
+}
+
+/* contact us section */
+form input[type="text"],
+form input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: #ccc solid 1px;
+  border-radius: 5px;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid #fcbe8a;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+textarea {
+  height: 200px;
 }
 
 /* main footer */
