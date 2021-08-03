@@ -1,0 +1,65 @@
+
+utility classes
+.lg-heading {
+
+}
+
+/* navbar styles */
+#navbar #logo,
+#navbar ul {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 10px 15px;
+}
+
+/* hero section */
+#hero {
+  height: 100%;
+}
+
+.hero-content {
+  padding-top: 75px;
+  padding-bottom: 30px;
+}
+
+/* home info section */
+#home-info .info-photo {
+  display: none;
+  float: none;
+}
+
+.info-content {
+  width: 100%;
+  float: none;
+}
+
+/* home-features section */
+.feature {
+  float: none;
+  width: 100%;
+}
+
+/* about page info */
+.about-info-left,
+.about-info-right {
+  float: none;
+  width: 100%;
+}
+
+.about-info-right img {
+  margin: 25px 0px;
+}
+
+/* contact */
+#contact-info .feature {
+  border: dotted 1px #444;
+}
+
+
